@@ -16,7 +16,7 @@
   },
   "socket": true,
   "scripts": [
-    "scripts/how-actors-to-players.js"
+    "scripts/show-actors-to-players.js"
   ],
   "languages": [
     {
