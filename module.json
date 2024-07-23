@@ -1,0 +1,33 @@
+{
+  "id": "show-actors-to-players",
+  "title": "Show Actors to Players",
+  "description": "Gives the GM the ability to display actors limited view in players screen while also making it visible in the actors tab.",
+  "authors": [
+    {
+    "name": "gapherd",
+    "email":"gabrielmendes0444@gmail.com",
+    "discord":"gapherd"
+    }
+  ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum":"11",
+    "verified": "11"
+  },
+  "socket": true,
+  "scripts": [
+    "scripts/how-actors-to-players.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "https://github.com/gabrielmendessc/show-actors-to-players",
+  "manifest": "https://raw.githubusercontent.com/gabrielmendessc/show-actors-to-player/main/module.json",
+  "download": "https://github.com/gabrielmendessc/show-actors-to-players/archive/refs/heads/main.zip",
+  "bugs": "https://github.com/gabrielmendessc/show-actors-to-players/issues",
+  "changelog": "https://github.com/gabrielmendessc/show-actors-to-players/releases"
+}
