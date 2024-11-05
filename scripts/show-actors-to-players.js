@@ -17,8 +17,11 @@ async function showActor(actorId) {
 }
 
 Hooks.on('renderActorSheet', (app, html, data) => {
+
   if (!game.users.get(game.userId).isGM) {
+
     return;
+
   }
 
   const header = html.find('.window-header');
